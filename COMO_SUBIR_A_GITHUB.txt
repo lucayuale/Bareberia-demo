@@ -1,0 +1,24 @@
+VYB — OBSIDIAN BOOKING | SUBIR AL REPOSITORIO EXISTENTE
+
+1. Descomprimir VYB_OBSIDIAN_BOOKING_LISTO_PARA_GITHUB.zip.
+2. Abrir el repositorio de GitHub que ya tienen creado.
+3. En la rama principal, elegir Add file > Upload files.
+4. Arrastrar LOS ARCHIVOS de la carpeta extraída (index.html, styles.css,
+   app.js, config.js, favicon.svg, .nojekyll, README.md y esta guía).
+   No subir el ZIP sin extraer, ni dejar todo en una subcarpeta.
+5. Confirmar el commit.
+6. Ir a Settings > Pages > Build and deployment.
+7. Seleccionar Deploy from a branch > main > /(root) > Save.
+8. Abrir la URL que GitHub muestre en Pages y probar:
+   - inicio, menú móvil y enlaces internos;
+   - cambio inglés/español;
+   - galería;
+   - modal y enlace de Setmore (solo cuenta de prueba autorizada).
+
+Este ZIP contiene únicamente la versión Booking que se muestra en GitHub Pages.
+No incluye Basic ni otros clientes ni el código generador de las plantillas.
+No hay una URL pública inventada: la asigna GitHub una vez publicada.
+
+ATENCIÓN: La demo incluye datos ficticios y un Setmore de prueba. No realizar
+reservas reales para clientes y revisar permisos/licencias de las fotos antes
+de reutilizarlas en un sitio comercial.
