@@ -68,3 +68,12 @@ body.modal-open{overflow:hidden}
 .service-list[data-show-price="true"][data-show-duration="true"] .service-row-static{grid-template-columns:56px minmax(0,1fr) 110px 95px}.service-list[data-show-price="false"][data-show-duration="true"] .service-row-static{grid-template-columns:56px minmax(0,1fr) 110px}.service-list[data-show-price="true"][data-show-duration="false"] .service-row-static{grid-template-columns:56px minmax(0,1fr) 95px}.service-list[data-show-price="false"][data-show-duration="false"] .service-row-static{grid-template-columns:56px minmax(0,1fr)}
 .gallery-grid.gallery-flex{grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));grid-template-rows:none;grid-auto-rows:260px}.gallery-grid.gallery-flex .gallery-item{grid-column:auto;grid-row:auto}
 @media(max-width:700px){.service-list .service-row{grid-template-columns:25px minmax(0,1fr) 59px 18px}.service-list[data-show-price="false"] .service-row{grid-template-columns:25px minmax(0,1fr) 18px}.service-list .service-row-static{grid-template-columns:25px minmax(0,1fr) 59px}.service-list[data-show-price="false"] .service-row-static{grid-template-columns:25px minmax(0,1fr)}.gallery-grid.gallery-flex{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:180px}}
+
+/* Mobile service columns must outrank the configurable desktop attribute selectors. */
+@media(max-width:700px){
+ #service-list .service-row{grid-template-columns:25px minmax(0,1fr) 59px 18px}
+ #service-list[data-show-price="false"] .service-row{grid-template-columns:25px minmax(0,1fr) 18px}
+ #service-list .service-row-static{grid-template-columns:25px minmax(0,1fr) 59px}
+ #service-list[data-show-price="false"] .service-row-static{grid-template-columns:25px minmax(0,1fr)}
+ #service-list .service-copy{min-width:0}
+}
